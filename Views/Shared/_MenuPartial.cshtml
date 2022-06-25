@@ -1,0 +1,7 @@
+﻿@if (Request.IsAuthenticated)
+{
+    <ul class="nav">
+        <li><a href="@Url.Action("Index", "Dashboard")">Home</a></li>
+        <li><a href="@Url.Action("Index", "Surveys")">Admin</a></li>
+    </ul>
+}
